@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useRef, useEffect } from "react";
 import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
