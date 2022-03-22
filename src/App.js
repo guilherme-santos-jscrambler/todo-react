@@ -100,9 +100,9 @@ function App(props) {
   const prevTaskLength = usePrevious(tasks.length);
   const alternativeUrl = "http://todo.org";
 
-  // function getIntegrity() {
-  //   "sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC";
-  // }
+  function getIntegrity() {
+    "sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC";
+  }
 
   useEffect(() => {
     const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
